@@ -1,0 +1,201 @@
+* {
+	font-family: 'Sen', sans-serif;
+	font-weight: 100;
+}
+
+.encabezado__div {
+	display: flex;
+	background: #d83;
+	margin: 0;
+	padding: 20px;
+	justify-content: flex-end;
+}
+
+.encabezado__div i {
+	color: #000;
+	margin-left: 10px;
+}
+
+.encabezado__div a {
+	color: #000;
+	box-sizing: border-box;
+	text-decoration: none;
+	margin-left: 2px;
+}
+
+.Logo {
+	background: url("file:///E:/14_Portfolio/Venta%20Macetas/Fondo1.png");
+	text-align: center;
+	height: 400px;
+}
+
+.Logo img {
+	border: 2px solid #d83;
+	margin-top: 125px;
+	padding: 0;
+}
+
+.Sobre-nosotros {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: #885;
+	height: auto;
+	justify-content: center;
+}
+
+h2 {
+	background: #fff;
+	border: 2px solid #d83;
+	border-radius: 10px;
+	text-align: center;
+	margin: 25px 10px 0px 10px;
+}
+
+.Sobre-nosotros p {
+	background: #fff;
+	border: 2px solid #d83;
+	border-radius: 10px;
+	margin: 10px 10px 25px 10px;
+	text-align: justify;
+	padding: 20px;
+}
+
+.Catalogo {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: #995;
+	height: auto;
+	justify-content: center;
+}
+
+.Categorias {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #995;
+	height: auto;
+	justify-content: center;
+}
+
+.flex-muestras {
+	justify-content: space-around;
+	background: #aaa;
+	border: 2px solid #d83;
+	border-radius: 10px;
+	margin: 25px 10px 25px 10px;
+}
+
+.maceta-texto {
+	font-size: medium;
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 100px;
+	padding: 5px;
+	justify-content: right;
+	text-align: right;
+}
+
+.precio {
+	color: #050;
+	font-size: x-large;
+}
+
+.maceta-img {
+	width: 250px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.Consultas {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: #aa5;
+	height: auto;
+	justify-content: center;
+}
+
+.Consultas-Formulario {
+	margin: 25px;
+	text-align: center;
+}
+
+.Consultas-Formulario-seccion{
+	margin: 5px;
+	padding: 10px;
+}
+
+.Consultas-Formulario-seccion input{
+	width: 50%;
+	height: auto;
+	border: 2px solid #d83;
+	border-radius: 10px;
+	padding: 5px
+}
+
+.Consultas-Formulario-seccion textarea{
+	min-width: 50%;
+	max-width: 50%;
+	min-height: 140px;
+	max-height: 140px;
+	border: 2px solid #d83;
+	border-radius: 10px;
+	resize: none;
+	padding: 5px
+}
+
+.Consultas-Formulario-seccion h4 {
+	background: #fff;
+	margin-bottom: 5px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: 2px solid #d83;
+	border-radius: 10px;
+}
+
+.Contacto {	
+	background: #333;
+	color: #fff;
+}
+
+.Contacto-titulo {
+	text-align: center;
+	padding: 10px;
+}
+
+.Contacto-referencias {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	margin-top: 10px;
+	justify-content: center;
+	text-align: center;
+}
+
+.Contacto-ref {
+	margin: 5px;
+	min-width: 200px;
+}
+
+.Contacto-ref a {
+	display: flex;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	justify-content: center;
+	padding: 2px;
+}
+
+.Contacto-ref i {
+	width: 50px;
+	height: 20px;
+}
+
+.Contacto-ref img {
+	border-radius: 5px;
+	width: 50px;
+	height: auto;
+	background-image: #333;
+}
