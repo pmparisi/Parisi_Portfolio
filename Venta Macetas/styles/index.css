@@ -3,7 +3,7 @@
 	font-weight: 100;
 }
 
-.encabezado__div {
+.EncabezadoDiv {
 	display: flex;
 	background: #d83;
 	margin: 0;
@@ -11,12 +11,12 @@
 	justify-content: flex-end;
 }
 
-.encabezado__div i {
+.EncabezadoDiv i {
 	color: #000;
 	margin-left: 10px;
 }
 
-.encabezado__div a {
+.EncabezadoDiv a {
 	color: #000;
 	box-sizing: border-box;
 	text-decoration: none;
@@ -35,7 +35,7 @@
 	padding: 0;
 }
 
-.Sobre-nosotros {
+.SobreNosotros {
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
@@ -52,7 +52,7 @@ h2 {
 	margin: 25px 10px 0px 10px;
 }
 
-.Sobre-nosotros p {
+.SobreNosotros p {
 	background: #fff;
 	border: 2px solid #d83;
 	border-radius: 10px;
@@ -70,7 +70,7 @@ h2 {
 	justify-content: center;
 }
 
-.Categorias {
+.CatalogoCategorias {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #995;
@@ -78,7 +78,7 @@ h2 {
 	justify-content: center;
 }
 
-.flex-muestras {
+.Muestras {
 	justify-content: space-around;
 	background: #aaa;
 	border: 2px solid #d83;
@@ -86,7 +86,7 @@ h2 {
 	margin: 25px 10px 25px 10px;
 }
 
-.maceta-texto {
+.MacetaTexto {
 	font-size: medium;
 	display: flex;
 	flex-wrap: wrap;
@@ -96,12 +96,12 @@ h2 {
 	text-align: right;
 }
 
-.precio {
+.Precio {
 	color: #050;
 	font-size: x-large;
 }
 
-.maceta-img {
+.MacetaImg{
 	width: 250px;
 	border-top-right-radius: 8px;
 	border-top-left-radius: 8px;
@@ -116,17 +116,17 @@ h2 {
 	justify-content: center;
 }
 
-.Consultas-Formulario {
+.ConsultasFormulario {
 	margin: 25px;
 	text-align: center;
 }
 
-.Consultas-Formulario-seccion{
+.ConsultasFormularioSeccion{
 	margin: 5px;
 	padding: 10px;
 }
 
-.Consultas-Formulario-seccion input{
+.ConsultasFormularioSeccion input{
 	width: 50%;
 	height: auto;
 	border: 2px solid #d83;
@@ -134,7 +134,7 @@ h2 {
 	padding: 5px
 }
 
-.Consultas-Formulario-seccion textarea{
+.ConsultasFormularioSeccion textarea{
 	min-width: 50%;
 	max-width: 50%;
 	min-height: 140px;
@@ -145,7 +145,7 @@ h2 {
 	padding: 5px
 }
 
-.Consultas-Formulario-seccion h4 {
+.ConsultasFormularioSeccion h4 {
 	background: #fff;
 	margin-bottom: 5px;
 	margin-left: 25%;
@@ -159,12 +159,12 @@ h2 {
 	color: #fff;
 }
 
-.Contacto-titulo {
+.ContactoTitulo {
 	text-align: center;
 	padding: 10px;
 }
 
-.Contacto-referencias {
+.ContactoReferencias {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 10px;
@@ -173,12 +173,12 @@ h2 {
 	text-align: center;
 }
 
-.Contacto-ref {
+.ContactoRef {
 	margin: 5px;
 	min-width: 200px;
 }
 
-.Contacto-ref a {
+.ContactoRef a {
 	display: flex;
 	color: #fff;
 	text-decoration: none;
@@ -188,12 +188,13 @@ h2 {
 	padding: 2px;
 }
 
-.Contacto-ref i {
+.ContactoRef i {
 	width: 50px;
 	height: 20px;
 }
 
-.Contacto-ref img {
+.ContactoRef img {
+	margin-bottom: 10px;
 	border-radius: 5px;
 	width: 50px;
 	height: auto;

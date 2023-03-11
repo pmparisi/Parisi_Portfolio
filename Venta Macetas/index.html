@@ -10,19 +10,22 @@
 		<script src="https://kit.fontawesome.com/f9938ecb71.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-        <header class="encabezado">
-            <div class="encabezado__div">
-                <i class="fa-sharp fa-solid fa-user-group"><a href="#Sobre-nosotros-id">Sobre Nosotros</a></i>
-                <i class="fa-sharp fa-solid fa-list-check"><a href="#Catalogo-id">Catálogo</a></i>
-                <i class="fa-sharp fa-solid fa-circle-question"><a href="#Consultas-id">Consultas</a></i>
+
+        <header class="Encabezado">
+            <div class="EncabezadoDiv">
+                <i class="fa-sharp fa-solid fa-user-group"><a href="#SobreNosotrosRef">Sobre Nosotros</a></i>
+                <i class="fa-sharp fa-solid fa-list-check"><a href="#CatalogoRef">Catálogo</a></i>
+                <i class="fa-sharp fa-solid fa-circle-question"><a href="#ConsultasRef">Consultas</a></i>
             </div>
             <div class="Logo">
                 <img src="./assets/Portada.png">
             </div>
         </header>
+
         <main class="principal">
-            <div class="Sobre-nosotros">
-                <a name="Sobre-nosotros-id"></a>
+
+            <section class="SobreNosotros">
+                <a name="SobreNosotrosRef"></a>
                 <div >
                     <h2><b>Sobre Nosotros</b></h2>
                 </div>
@@ -36,51 +39,56 @@
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus delectus animi? Repellendus fugit, porro quos veniam rem ipsam culpa officiis. Hic eius perferendis dolorem distinctio voluptate est, consequatur ipsum.
                     </p>
                 </div>
-            </div>
-            <a name="Catalogo-id"></a>
-            <div class="Catalogo">
+            </section>
+            
+            <section class="Catalogo">
+                <a name="CatalogoRef"></a>
                 <h2><b>Catálogo</b></h2>
-                <div class="Categorias">
-                    <script src="./src/main.js"></script>
-                </div>
-            </div> 
-            <a name="Consultas-id"></a>
-            <div class="Consultas">
+                <div class="CatalogoCategorias"></div>
+            </section> 
+            
+            <section class="Consultas">
+                <a name="ConsultasRef"></a>
                 <h2><b>Consultas</b></h2>
-                <form class="Consultas-Formulario">
-                    <div class="Consultas-Formulario-seccion">
+                <form class="ConsultasFormulario">
+                    <div class="ConsultasFormularioSeccion">
                         <h4>Nombre</h4>
                         <input type="text">
                     </div>
-                    <div class="Consultas-Formulario-seccion">
+                    <div class="ConsultasFormularioSeccion">
                         <h4>Email</h4>
                         <input type="email">
                     </div>
-                    <div class="Consultas-Formulario-seccion">
+                    <div class="ConsultasFormularioSeccion">
                         <h4>Consulta</h4>
                         <textarea></textarea>
                     </div>
-                    <div class="Consultas-Formulario-seccion">
+                    <div class="ConsultasFormularioSeccion">
                         <input type="submit">
                     </div>
                 </form>
-            </div>
+            </section>
         </main>
+
         <footer class="Contacto">
-            <div class="Contacto-titulo">
+            <div class="ContactoTitulo">
                 <h3>Conacto</h3>
             </div>
-            <div class="Contacto-referencias">
-                <div class="Contacto-ref">
-                    <img src="https://img.freepik.com/vector-premium/icono-whatsapp-iconos-redes-sociales-estilo-corte-papel_505135-266.jpg?w=2000"><p>Tel: (0266) 4000000</p>
+            <div class="ContactoReferencias">
+                <div class="ContactoRef">
+                    <a href="https://api.whatsapp.com/send?phone=2664000000" target="_blank"><img src="https://static.whatsapp.net/rsrc.php/v3/yz/r/ujTY9i_Jhs1.png"></a><p>Tel: (0266) 4000000</p>
                 </div>
-                <div class="Contacto-ref">
-                    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"><a href="mailto:macarimacetas@gmail.com"><p>macarimacetas@gmail.com</p></a> 
+                <div class="ContactoRef">
+                    <a href="mailto:macarimacetas@gmail.com"><img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"></a><p>macarimacetas@gmail.com</p>
                 </div>
-                <div class="Contacto-ref" data-sow-icon="">
+                <div class="ContactoRef" data-sow-icon="">
                     <a href="https://www.instagram.com/macarimacetas/" target="_blank"><img src="https://static.cdninstagram.com/rsrc.php/yS/r/f_5NUHW7AZC.ico"></a><p>macarimacetas</p>
                 </div>                
             </div>
         </footer>
+
+        
+        <script src="./src/main.js"></script>
+
 	</body>
 </html>
