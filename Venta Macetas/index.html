@@ -4,8 +4,8 @@
 		<title>MACARÍ</title>
 		<meta charset="utf-8">
 		<link rel="icon" href="Logo.ico">
-		<link rel="stylesheet" type="text/css" href="estilo.css">
-		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="./styles/index.css">
+		<link rel="stylesheet" type="text/css" href="./styles/normalize.css">
 		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Quintessential&family=Sen&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/f9938ecb71.js" crossorigin="anonymous"></script>
 	</head>
@@ -17,12 +17,13 @@
                 <i class="fa-sharp fa-solid fa-circle-question"><a href="#Consultas-id">Consultas</a></i>
             </div>
             <div class="Logo">
-                <img src="file:///E:/14_Portfolio/Venta%20Macetas/Portada.png">
+                <img src="./assets/Portada.png">
             </div>
         </header>
-        <article class="principal">
+        <main class="principal">
             <div class="Sobre-nosotros">
-                <div id="Sobre-nosotros-id">
+                <a name="Sobre-nosotros-id"></a>
+                <div >
                     <h2><b>Sobre Nosotros</b></h2>
                 </div>
                 <div>
@@ -36,13 +37,15 @@
                     </p>
                 </div>
             </div>
-            <div id="Catalogo-id" class="Catalogo">
+            <a name="Catalogo-id"></a>
+            <div class="Catalogo">
                 <h2><b>Catálogo</b></h2>
-            </div>            
-            <div class="Categorias">
-                <script src="Codigo_macetas.js"></script>
-            </div>
-            <div id="Consultas-id" class="Consultas">
+                <div class="Categorias">
+                    <script src="./src/main.js"></script>
+                </div>
+            </div> 
+            <a name="Consultas-id"></a>
+            <div class="Consultas">
                 <h2><b>Consultas</b></h2>
                 <form class="Consultas-Formulario">
                     <div class="Consultas-Formulario-seccion">
@@ -62,7 +65,7 @@
                     </div>
                 </form>
             </div>
-        </article>
+        </main>
         <footer class="Contacto">
             <div class="Contacto-titulo">
                 <h3>Conacto</h3>
@@ -72,7 +75,7 @@
                     <img src="https://img.freepik.com/vector-premium/icono-whatsapp-iconos-redes-sociales-estilo-corte-papel_505135-266.jpg?w=2000"><p>Tel: (0266) 4000000</p>
                 </div>
                 <div class="Contacto-ref">
-                    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"><p></p>macarimacetas@gmail.com</p> 
+                    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico"><a href="mailto:macarimacetas@gmail.com"><p>macarimacetas@gmail.com</p></a> 
                 </div>
                 <div class="Contacto-ref" data-sow-icon="">
                     <a href="https://www.instagram.com/macarimacetas/" target="_blank"><img src="https://static.cdninstagram.com/rsrc.php/yS/r/f_5NUHW7AZC.ico"></a><p>macarimacetas</p>

@@ -11,10 +11,10 @@ function crearMaceta(nombre,modelo,precio){
 let fragmento = document.createDocumentFragment();
 
 for(var i = 1;i <= 12; i++){
-    let modelorandom = Math.round(Math.random()*100);
-    let preciorandom = Math.round(Math.random()*10 + 100);
-    let maceta =crearMaceta(`Maceta ${i}`,`Modelo M-${modelorandom}`,`$${preciorandom}`);
-    let item = document.createElement("DIV");
+    const modelorandom = Math.round(Math.random()*100);
+    const preciorandom = Math.round(Math.random()*10 + 100);
+    const maceta =crearMaceta(`Maceta ${i}`,`Modelo M-${modelorandom}`,`$${preciorandom}`);
+    const item = document.createElement("DIV");
     item.classList.add(`flex-muestras`); //Agrego una clase al ítem
     item.innerHTML = maceta[0] + maceta[1] + maceta[2] + maceta[3];
     fragmento.appendChild(item);
